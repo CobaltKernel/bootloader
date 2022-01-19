@@ -1,3 +1,5 @@
+#![feature(asm)]
+
 use anyhow::{anyhow, bail, Context};
 use argh::FromArgs;
 use bootloader::disk_image::create_disk_image;

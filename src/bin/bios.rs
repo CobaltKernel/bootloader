@@ -1,5 +1,6 @@
 #![no_std]
 #![no_main]
+#![feature(asm)]
 
 #[cfg(not(target_os = "none"))]
 compile_error!("The bootloader crate must be compiled for the `x86_64-bootloader.json` target");

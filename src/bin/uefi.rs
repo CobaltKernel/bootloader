@@ -3,6 +3,7 @@
 #![feature(abi_efiapi)]
 #![feature(maybe_uninit_extra)]
 #![deny(unsafe_op_in_unsafe_fn)]
+#![feature(asm)]
 
 // Defines the constants `KERNEL_BYTES` (array of `u8`) and `KERNEL_SIZE` (`usize`).
 include!(concat!(env!("OUT_DIR"), "/kernel_info.rs"));
